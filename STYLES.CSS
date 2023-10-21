@@ -1,0 +1,78 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(3, 19, 238);
+}
+.home{
+    background-image: url(images/home.png);
+    background-size:cover;
+    width:100%;
+    padding: 150px 30px 100px 30px;
+    margin-bottom: 0;
+    display: block;
+
+}
+.friend{
+    background: linear-gradient(blue,yellow);
+    margin-top: 0;
+
+}
+#frd{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.activity{
+    width: 33%;
+    
+
+}
+.img{
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid palevioletred;
+}
+.avatar{
+    width: 20%;
+    height:20%;
+
+}
+
+
+
+.tanishk-card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddf8f1;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    border-left:6px solid #d8cefe;
+    border-radius: 30px;
+    box-shadow: 5px 2px 10px 5px greenyellow;
+}
+.me{
+    background: radial-gradient(red,orange)
+    
+}
+h1, h2 {
+    color: red;
+    text-shadow: 1px 2px 1px black;
+    font-style: italic;
+}
+h3 {
+    color: rgba(0, 5, 10, 0.932);
+    font-style: italic;
+}
+ p {
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 0px black;
+
+}
+#frnt{
+    color: goldenrod; 
+    text-shadow: 1px 1px 5px gold;
+}
